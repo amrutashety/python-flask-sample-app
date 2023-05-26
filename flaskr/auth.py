@@ -8,7 +8,7 @@ from flask import render_template
 from flask import request
 from flask import session
 from flask import url_for
-from werkzeug.security import check_password_hash
+from werkzeug.security import check_password_has
 from werkzeug.security import generate_password_hash
 
 from flaskr.db import get_db
